@@ -117,7 +117,6 @@ OverDrive.Stages.InputConfirm = (function(stage, canvas, context) {
 		levelMessage.push('1. Maze');
 		levelMessage.push('2. Whitworth');
 		levelMessage.push('3. Space');
-		//levelMessage.push('4.Minecraft');
 		  
 		self.draw(levelMessage);
 
@@ -134,7 +133,7 @@ OverDrive.Stages.InputConfirm = (function(stage, canvas, context) {
 		else if (self.keyPressed('K_3')) {
 			self.lev = 3;
 			self.mapSelected = true;
-			console.log("Space selected");
+			console.log("Space map selected");
 		}
 		else {
 			self.mapSelected = false;
