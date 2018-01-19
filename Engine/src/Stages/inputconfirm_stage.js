@@ -136,16 +136,6 @@ OverDrive.Stages.InputConfirm = (function(stage, canvas, context) {
 			self.mapSelected = true;
 			console.log("Space selected");
 		}
-		/*else if (self.keyPressed('K_3')) {
-			self.lev = 3;
-			self.mapSelected = true;
-			console.log("Space Map selected");
-		}
-		else if (self.keyPressed('K_4')) {
-			self.lev = 4;
-			self.mapSelected = true;
-			console.log("Minecraft selected");
-		}*/
 		else {
 			self.mapSelected = false;
 		}
